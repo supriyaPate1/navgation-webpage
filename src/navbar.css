@@ -1,0 +1,106 @@
+.Nav{
+    display: flex;
+    background-color:white;
+    color: black;
+    /* width: auto; */
+    align-items: center;  
+    width: 100%;
+  }
+
+  .Nav a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    padding-right:30px;
+    font-size: 20px;
+    padding-left: 20px;
+   
+  }
+
+  .Nav a:hover{
+    color: rgb(16, 46, 129);
+  }
+
+  .Nav select{
+    outline:none;
+  }
+
+.image{
+    margin-top: 50px;
+ }
+
+.abv{
+  width: 50%;
+ }
+.icon{ 
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+ }
+.Nav img{
+    width: 20%;
+    margin-left: 50px;
+ }
+.socialicon{
+    background-color:blue;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+ 
+ }
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa-instagram {
+    background:black;
+    color: white;
+  }
+  .fa-facebook {
+    background:rgb(16, 16, 95);
+    color: white;
+  }
+  .aise-hi{
+    width: 80%;
+ }
+ .image img{
+    width: 100%;
+    margin-top: -5%;
+ }
+ .dropbtn {
+  color:black;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(243, 241, 241);
+  margin-top: -45px;
+  margin-left: 35px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+@media screen and (max-width:950px) {
+  .Nav{
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+}
